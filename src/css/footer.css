@@ -1,0 +1,19 @@
+.shop-footer {
+  background-color: #0a2300;
+  min-height: 320px;
+  max-width: 375px;
+  /* background-color: #ea0404; */
+  color: #fff;
+}
+
+.footer-links-text {
+  font-weight: 400;
+  font-size: 160 px;
+  line-height: 1.5;
+}
+
+.footer-copyright {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+}
