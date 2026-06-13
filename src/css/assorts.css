@@ -1,5 +1,7 @@
-.back {
+.back-background {
   background-color: #d1ddcc;
+}
+.back {
   padding: 64px 16px;
 }
 .text-assortment {
