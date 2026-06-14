@@ -3,7 +3,7 @@
   <!-- #region Head -->
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/git-pushers-team-project/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/src/public/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Organic Shop</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -39,19 +39,33 @@
     <h2 class="mission-title">
       Our Mission: Fresh, Local, and Organic for a Healthier Tomorrow.
     </h2>
+
     <p class="mission-description">
       At Organic Shop, we believe in the power of nature. Our mission is to
       provide you with fresh, locally sourced organic products that nourish both
       body and soul. We partner with ethical farmers who share our commitment to
       sustainability and quality.
     </p>
-    <img
-      class="mission-picture"
-      src="/git-pushers-team-project/assets/mission-picture@1x-B79D5aY9.jpg"
-      srcset="/git-pushers-team-project/assets/mission-picture@2x-nHzPhx0G.jpg 2x"
-      alt="Friends are gathering organic vegetables"
-      width="343"
-    />
+
+    <picture>
+      <source
+        srcset="/git-pushers-team-project/assets/mission-picture_d@1x-BaFrhIky.jpg 1x, /git-pushers-team-project/assets/mission-picture_d@2x-CcSu3c_Y.jpg 2x"
+        media="(min-width: 1440px)"
+      />
+      <source
+        srcset="/git-pushers-team-project/assets/mission-picture_t@1x-K_vcqcAZ.jpg 1x, /git-pushers-team-project/assets/mission-picture_t@2x-DtnGhUR1.jpg 2x"
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="/git-pushers-team-project/assets/mission-picture_m@1x-B79D5aY9.jpg 1x, /git-pushers-team-project/assets/mission-picture_m@2x-nHzPhx0G.jpg 2x"
+        media="(max-width: 768px)"
+      />
+      <img
+        class="mission-picture"
+        src="/git-pushers-team-project/assets/mission-picture_d@1x-BaFrhIky.jpg"
+        alt="Адаптивне зображення"
+      />
+    </picture>
   </div>
 </section>
 
