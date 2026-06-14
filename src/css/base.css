@@ -14,6 +14,7 @@ body {
 main {
   flex-grow: 1;
 }
+
 main:has(.back-link) {
   text-align: center;
 }
@@ -31,15 +32,13 @@ p {
   color: #010400;
 }
 
-section,
-footer {
+section {
   padding: 64px 0;
   margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
-  section,
-  footer {
+  section {
     max-width: 768px;
   }
 }
@@ -48,8 +47,8 @@ footer {
   h2 {
     font-size: 48px;
   }
-  section,
-  footer {
+
+  section {
     max-width: 1440px;
     padding: 112px 0;
   }
