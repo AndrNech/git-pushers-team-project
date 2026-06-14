@@ -61,7 +61,6 @@
   height: 24px;
   flex-shrink: 0;
   fill: #010400;
-  stroke: currentColor;
 }
 
 .contact-link {
@@ -177,9 +176,6 @@
 }
 /* DESKTOP 1440px */
 @media screen and (min-width: 1440px) {
-  .contact-section {
-    padding: 112px 64px;
-  }
   .contact-container {  
    flex-direction: row; 
     gap: 80px;
