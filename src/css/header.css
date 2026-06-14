@@ -1,10 +1,21 @@
+.header {
+  background-color: #5E8A4D; 
+}
+
+.header-container {
+  display: flex;
+  align-items: center;      
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
  .nav-list {
   display: flex;
   gap: 32px;        
   margin: 0;
   padding: 0;
 }
-
 
 .nav-link {
   color: #ffffff;      
@@ -16,19 +27,6 @@
   color: #f0f0f0; 
 }
 
-
-.header {
-  background-color: #5E8A4D; 
-  padding: 1px 0;
-}
-
-.header-container {
-  display: flex;
-  align-items: center;      
-  justify-content: space-between;
-  margin: 0 auto;
-  padding: 1px 6px;
-}
 
 @media screen and (min-width: 768px) {
   .menu-open-btn {
