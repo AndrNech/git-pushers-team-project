@@ -1,3 +1,12 @@
+.hero {
+  background-image: url('../img/hero-mob@1x.jpg')
+                    url('../img/hero-mob@2x.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+}
+
 .hero-title {
   font-family: 'Chivo', sans-serif;
   font-size: 40px;
@@ -38,14 +47,7 @@
     font-size: 48px;
   }
 }
-.hero {
-  background-image: url('../img/hero-mob@1x.jpg')
-                    url('../img/hero-mob@2x.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 100px 0;
-}
+
 
 @media screen and (min-width: 768px) {
   .hero {
