@@ -180,8 +180,8 @@
   .contact-section {
     padding: 112px 64px;
   }
-  .contact-container {
-   flex-direction: row; ;
+  .contact-container {  
+   flex-direction: row; 
     gap: 80px;
   }
   .contact-subtitle {
