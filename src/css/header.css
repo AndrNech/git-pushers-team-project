@@ -10,6 +10,7 @@
 
 .header-logo {
   margin-right: auto;
+  fill: #ffffff;
 }
 
 .header-nav {
@@ -50,7 +51,13 @@
 
 .order-btn:hover {
   background-color: #1A5901;
-  color: #000000; 
+  color: #ffffff; 
+}
+
+.menu-open-btn {
+  background: #5E8A4D;
+  border: none;
+  fill: #ffffff;
 }
 
 @media screen and (min-width: 768px) {
