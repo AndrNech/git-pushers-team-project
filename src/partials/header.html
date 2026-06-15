@@ -1,29 +1,41 @@
-<header class="header">
-  <div class="container header-container">
-    <div class="header-left">
-    <a href="./index.html" class="header-logo">
-      <img src="./img/svg/logo.svg" alt="Logo" />
+<header>
+  <div class="header-container container">
+    <a class="header-logo" href="./index.html">
+      <svg width="142" height="60">
+        <use href="./img/sprite.svg#icon-logo"></use>
+      </svg>
     </a>
 
-    <nav class="header-nav">
-      <ul class="nav-list">
-        <li><a href="#index.html" class="nav-link">Home</a></li>
-        <li><a href="#mission.html" class="nav-link">Mission</a></li>
-        <li><a href="#benefits.html" class="nav-link">Benefits</a></li>
-        <li><a href="#assortment.html" class="nav-link">Assortment</a></li>
-        <li><a href="#feedbacks.html" class="nav-link">Feedbacks</a></li>
-        <li><a href="#faq.html" class="nav-link">FAQ</a></li>
-        <li><a href="#contact.html" class="nav-link">Contact</a></li>
-       </ul>
-    </nav>
-    </div>
-    <div class="header-right">
-      <a href="./assortment.html" class="order-btn">Order</a>
-      <button type="button" class="menu-open-btn">
-      <svg class="menu-open-icon" width="24" height="24">
-        <use href="./img/svg/menu.svg"></use>
-      </svg>
-    </button>
+    <ul class="header-nav">
+      <li class="header-nav-item">
+        <a href="./index.html">Home</a>
+      </li>
+      <li class="header-nav-item">
+        <a href="#mission">Mission</a>
+      </li>
+      <li class="header-nav-item">
+        <a href="#benefits">Benefits</a>
+      </li>
+      <li class="header-nav-item">
+        <a href="#assortment">Assortment</a>
+      </li>
+      <li class="header-nav-item">
+        <a href="#feedbacks">Feedbacks</a>
+      </li>
+      <li class="header-nav-item">
+        <a href="#faq">FAQ</a>
+      </li>
+      <li class="header-nav-item">
+        <a href="#contacts">Contacts</a>
+      </li>
+    </ul>
+    <div class="header-buttons">
+      <a class="header-button-order" href="#assortment">Order</a>
+      <button class="header-burger-menu">
+        <svg width="21.33" height="16">
+          <use href="./img/sprite.svg#icon-menu"></use>
+        </svg>
+      </button>
     </div>
   </div>
 </header>
